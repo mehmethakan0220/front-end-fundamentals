@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dj Ozelliksele | Çatı Records</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <audio id="myAudio">
+      <source src="sounds/title.mp3" type="audio/mpeg" />
+      
+    </audio>
+    <audio id="keslan">
+        <source src="sounds/kes.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="heijan">
+        <source src="sounds/heijan.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="tu">
+        <source src="sounds/pu.mp3" type="audio/mpeg" />
+    </audio>
+    <header>
+      <nav>
+        <a href="index.html"><span>Ana Sayfa</span></a
+        ><a href="about.html"><span>Biz Kimiz</span></a
+        ><a href="contrubutors.html"><span>Üyelerimiz</span></a>
+      </nav>
+    </header>
+
+    <main >
+      <div onclick="pauseAudio();pauseHeijan();playkes();"  class="members">
+        <img src="images/djdikkat.jpeg" title="Rip" alt="Rip" />
+      </div>
+      <div title="Gokan kardaşım" class="members">
+        <img src="images/gokan.jpeg" alt="Gokan kardaşım" />
+      </div>
+      <div onclick="playAudio()" ondblclick="pauseAudio()" title="feka rekords" class="members">
+        <img src="images/fk.jpeg" alt="feka rekords" />
+      </div>
+      <div onclick="playTu();" title="coluk cocuk babası" class="members">
+        <img src="images/dincer.jpeg" alt="coluk cocuk babası" />
+      </div>
+      <div onclick="playHeijan()" ondblclick="pauseHeijan();"  title="gene mi amcalar gene mi dj dikkat" class="members">
+        <img src="images/heijan.jpeg" alt="gene mi amcalar gene mi dj dikkat" />
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li>Lorem.</li>
+        <li>Voluptates.</li>
+        <li>Rerum?</li>
+        <li>At.</li>
+      </ul>
+      <ul>
+        <li>Lorem.</li>
+        <li>Eum.</li>
+        <li>Nesciunt.</li>
+        <li>Harum?</li>
+      </ul>
+      <ul>
+        <li>Lorem.</li>
+        <li>Pariatur.</li>
+        <li>Odio!</li>
+        <li>Eveniet!</li>
+      </ul>
+      <ul>
+        <li>Lorem.</li>
+        <li>Quod.</li>
+        <li>Ut.</li>
+        <li>Iusto.</li>
+      </ul>
+    </footer>
+    <script>
+        var x = document.getElementById("myAudio");
+        var y = document.getElementById("keslan"); 
+        var z = document.getElementById("heijan"); 
+        var t = document.getElementById("tu"); 
+        
+        function playAudio() { 
+          
+          x.play(); 
+        } 
+        
+        function pauseAudio() { 
+          x.pause(); 
+        } 
+
+        function playHeijan() { 
+          
+            z.play(); 
+          } 
+          
+          function pauseHeijan() { 
+            z.pause(); 
+          } 
+
+          function playTu() { 
+          
+            t.play(); 
+          } 
+          
+        
+        function playkes() { 
+            this.pauseAudio();
+          y.play(); 
+        } 
+        
+        </script>
+  </body>
+</html>
