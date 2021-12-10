@@ -2,4 +2,4 @@
 
 ## weight of selectors
 
-![see image]()
+![see image](https://github.com/mehmethakan0220/front-end-fundamentals/blob/master/4-css-cascading-system/css_cascading.png)
