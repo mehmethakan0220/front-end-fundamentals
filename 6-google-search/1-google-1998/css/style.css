@@ -1,0 +1,93 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+
+    text-align: center;
+}
+.box1>img{
+    margin:10px;
+}
+
+.box2{
+    height: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box3{
+    height: 30px;
+}
+
+.inbox1{
+    text-align: center;
+    background-color: #EEEEEE;
+}
+.box3{
+    text-align: center;
+    font-size: 13px;
+}
+
+.inbox2{
+    background-color: red;
+    
+}
+.inbox2>*{
+    margin: 0;
+    padding: 0;
+}
+
+#tbox1{
+
+    background-color: #7EE5DA;
+    width: 35%;
+    height: 80px;
+    text-align: center;
+    float: left;
+    
+}
+
+#tbox2{
+    background-color: #70CCC2;
+    width: 29%;
+    text-align: center;
+    float: left;
+    height: 80px;
+    margin-left: 3px;
+    
+}
+
+#tbox3{
+    background-color: #62B3AA;
+    width: 35%;
+    text-align: center;
+    float: left;
+    height: 80px;
+    margin-left: 3px;
+}
+#tbox3>*{
+   margin: 0;
+   padding: 0;
+}
+.clear-fix{
+    clear: both;
+}
+
+a{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+a>p{
+    margin: 0;
+    padding: 0;
+}
+#search-title{
+    margin: 0;
+    padding: 0;
+}
+.textinput{
+    margin: 0;
+    padding: 0;
+}
